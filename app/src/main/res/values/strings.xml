@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Agenda_DMOS5</string>
+    <string name="erro_empty_fields">Campos incorretos</string>
+    <string name="erro_null_contato">Contato null</string>
+    <string name="nome">Nome:</string>
+    <string name="celular">Celular:</string>
+    <string name="fixo">Fixo:</string>
 </resources>

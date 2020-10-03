@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.MostrarContatoActivity">
+
+    <TextView
+        android:id="@+id/textview_texto_nome"
+        android:textStyle="bold"
+        android:text="@string/nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:textColor="#000"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/textview_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:textColor="#000"
+        app:layout_constraintTop_toBottomOf="@+id/textview_texto_nome" />
+
+    <TextView
+        android:id="@+id/textview_texto_celular"
+        android:textStyle="bold"
+        android:text="@string/celular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:textColor="#000"
+        app:layout_constraintTop_toBottomOf="@+id/textview_nome"/>
+
+    <TextView
+        android:id="@+id/textview_telCel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:textColor="#000"
+        app:layout_constraintTop_toBottomOf="@+id/textview_texto_celular" />
+
+    <TextView
+        android:id="@+id/textview_texto_fixo"
+        android:textStyle="bold"
+        android:text="@string/fixo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:textColor="#000"
+        app:layout_constraintTop_toBottomOf="@+id/textview_telCel"/>
+
+    <TextView
+        android:id="@+id/textview_telFix"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:textColor="#000"
+        app:layout_constraintTop_toBottomOf="@+id/textview_texto_fixo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
